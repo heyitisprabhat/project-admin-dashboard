@@ -4,157 +4,199 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <div class="header">
         <div class="header-top">
-          <label for="search"></label>
-          <input type="search" id="search" name="query" />
-          <div class="icon"></div>
-          <div class="icon"></div>
-          <p>Morgan Oakley</p>
+          <div class="header-top-left">
+            <label for="search"><img src="icons/search.svg" alt="" /></label>
+            <input type="search" id="search" name="query" />
+          </div>
+          <div class="header-top-right">
+            <img src="icons/bell.svg" alt="" />
+            <div class="icon pfp"></div>
+            <p>Morgan Oakley</p>
+          </div>
         </div>
+
         <div class="header-bottom">
-          <div class="icon"></div>
-          <p class="intro">Hi There, Morgan Oakley (@morgan)</p>
-          <button>New</button>
-          <button>Upload</button>
-          <button>Share</button>
+          <div class="header-bottom-left">
+            <div class="icon pfp" id="intro-pfp"></div>
+            <p>
+              Hi There, <br />
+              <em> Morgan Oakley (@morgan)</em>
+            </p>
+          </div>
+
+          <div class="header-bottom-right">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
         </div>
       </div>
 
       <div class="sidebar">
-        <div class="logo">Dashboard</div>
-        <div class="menu">
-          <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
-          </ul>
-          <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-          </ul>
-        </div>
+        <div class="sidebar-logo">Dashboard</div>
+        <ul>
+          <li>Home</li>
+          <li>Profile</li>
+          <li>Messages</li>
+          <li>History</li>
+          <li>Tasks</li>
+          <li>Communities</li>
+        </ul>
+        <ul>
+          <li>Settings</li>
+          <li>Support</li>
+          <li>Privacy</li>
+        </ul>
       </div>
 
       <div class="projects">
-        <div class="projects-title">Your Projects</div>
+        <div class="title">Your Projects</div>
         <div class="cards">
-          <div class="card">
-            <p class="title">Article Title</p>
+          <div class="card prj-card">
+            <p>Article Title</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud...
             </p>
-            <div class="elements"></div>
+            <div class="elements">
+              <img src="icons/star.svg" alt="" /><img
+                src="icons/eye.svg"
+                alt=""
+              /><img src="icons/source-fork.svg" alt="" />
+            </div>
           </div>
-          <div class="card">
-            <p class="title">Article Title</p>
+          <div class="card prj-card">
+            <p>Article Title</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud...
             </p>
-            <div class="elements"></div>
+            <div class="elements">
+              <img src="icons/star.svg" alt="" /><img
+                src="icons/eye.svg"
+                alt=""
+              /><img src="icons/source-fork.svg" alt="" />
+            </div>
           </div>
-          <div class="card">
-            <p class="title">Article Title</p>
+          <div class="card prj-card">
+            <p>Article Title</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud...
             </p>
-            <div class="elements"></div>
+            <div class="elements">
+              <img src="icons/star.svg" alt="" /><img
+                src="icons/eye.svg"
+                alt=""
+              /><img src="icons/source-fork.svg" alt="" />
+            </div>
           </div>
-          <div class="card">
-            <p class="title">Article Title</p>
+          <div class="card prj-card">
+            <p>Article Title</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud...
             </p>
-            <div class="elements"></div>
+            <div class="elements">
+              <img src="icons/star.svg" alt="" /><img
+                src="icons/eye.svg"
+                alt=""
+              /><img src="icons/source-fork.svg" alt="" />
+            </div>
           </div>
-          <div class="card">
-            <p class="title">Article Title</p>
+          <div class="card prj-card">
+            <p>Article Title</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud...
             </p>
-            <div class="elements"></div>
+            <div class="elements">
+              <img src="icons/star.svg" alt="" /><img
+                src="icons/eye.svg"
+                alt=""
+              /><img src="icons/source-fork.svg" alt="" />
+            </div>
           </div>
-          <div class="card">
-            <p class="title">Article Title</p>
+          <div class="card prj-card">
+            <p>Article Title</p>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud...
             </p>
-            <div class="elements"></div>
+            <div class="elements">
+              <img src="icons/star.svg" alt="" /><img
+                src="icons/eye.svg"
+                alt=""
+              /><img src="icons/source-fork.svg" alt="" />
+            </div>
           </div>
         </div>
       </div>
       <div class="annc">
-        <div class="annc-title">Announcements</div>
-        <div class="annc-card">
+        <div class="title">Announcements</div>
+        <div class="card annc-card">
           <div class="annc-block">
-            <p class="block-title">Article Title</p>
-            <p class="block-desc">
+            <p>Article Title</p>
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud...
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <p class="block-title">Article Title</p>
-            <p class="block-desc">
+          </div>
+          <div class="annc-block">
+            <p>Article Title</p>
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud...
+              eiusmod tempor
             </p>
-            <p class="block-title">Article Title</p>
-            <p class="block-desc">
+          </div>
+          <div class="annc-block">
+            <p>Article Title</p>
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud...
+              eiusmod tempor incididunt
             </p>
           </div>
         </div>
       </div>
 
       <div class="trending">
-        <div class="trending-title">trending</div>
-        <div class="trending-card">
+        <div class="title">Trending</div>
+        <div class="card trending-card">
           <div class="trending-block">
-            <div class="icon"></div>
+            <div class="icon pfp"></div>
             <div class="user">
               <p>@tegan</p>
               <p>Super Cool project</p>
             </div>
           </div>
           <div class="trending-block">
-            <div class="icon"></div>
+            <div class="icon pfp"></div>
             <div class="user">
               <p>@tegan</p>
               <p>Super Cool project</p>
             </div>
           </div>
           <div class="trending-block">
-            <div class="icon"></div>
+            <div class="icon pfp"></div>
             <div class="user">
               <p>@tegan</p>
               <p>Super Cool project</p>
             </div>
           </div>
           <div class="trending-block">
-            <div class="icon"></div>
+            <div class="icon pfp"></div>
             <div class="user">
               <p>@tegan</p>
               <p>Super Cool project</p>
